@@ -1,0 +1,36 @@
+# GenericSpawners Configuration
+prefix: "&8[&6GenericSpawners&8] &r"
+
+### SPAWNER STACKING SETTINGS
+spawners:
+  max-stack-size: 250
+
+### FUSION SYSTEM SETTINGS
+fusion:
+  required-amount: 3
+  max-tier: 4
+
+### UPGRADE COSTS
+upgrades:
+  count:
+    base-cost: 5000.0
+  speed:
+    base-cost: 7500.0
+  drops:
+    base-cost: 10000.0
+
+### SHOP PRICES
+shop-prices:
+  PIG: 5000.0
+  COW: 7500.0
+  SHEEP: 7500.0
+  CHICKEN: 5000.0
+  ZOMBIE: 15000.0
+  SKELETON: 20000.0
+  SPIDER: 15000.0
+  CREEPER: 35000.0
+  BLAZE: 50000.0
+  ENDERMAN: 60000.0
+  WITCH: 75000.0
+  VILLAGER: 100000.0
+  IRON_GOLEM: 250000.0
