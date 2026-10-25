@@ -1,0 +1,16 @@
+name: GenericSpawners
+main: com.yourname.genericspawners.GenericSpawners
+version: 1.0.0
+api-version: 1.17
+depend: [Vault]
+
+commands:
+  spawner:
+    description: Hovedkommando for GenericSpawners.
+    aliases: [spawners]
+    usage: /spawner [shop|fuse|give]
+
+permissions:
+  genericspawners.admin:
+    description: Giver adgang til at bruge /spawner give kommandoen.
+    default: op
